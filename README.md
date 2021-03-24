@@ -11,7 +11,7 @@
 ---
 Function 1 Time Complexity:
 
-Explain your answer:
+Explain your answer: O(1) - only runs once
 ```
 function bobIsFirst(people){
   return people[0] == 'bob'
@@ -36,7 +36,7 @@ function wordOccurrence(word, phrase){
 ---
 Function 3 Time Complexity:
 
-Explain your answer:
+Explain your answer: O(n) runs as many times as list is long
 ```
 function sort(list){
   for(let i = 0; i < list.length - 1; i++){
@@ -57,10 +57,14 @@ function sort(list){
 ### Written Questions
 
 - What method would you use to look up a word in a dictionary (book, not Python)?
+- Binary Search
 
 - Imagine you have a closet full of shirts. What can you do to organize your shirts for easy retrieval?
+- Bucket Sort
 
 - Describe advantages and disadvantages of the most popular sorting algorithms.
+
+The issue with most sorting algorithms is time complexity.  How long does it take to sort the large amounts of data.  Bubble Sort has a terrible time complexity, but quick sorts is much easier.  When you are looking at a bucket sort the question becomes 1) How much data do you have and 2) What do you need to do with that data?
 
 ---
 
